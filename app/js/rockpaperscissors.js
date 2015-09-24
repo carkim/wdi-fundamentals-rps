@@ -67,7 +67,7 @@ function playToFive() {
         getWinner();
         if (winner = 'player') {
             playerWins = i++
-        } else if (winner = 'computer') {
+        } else (winner = 'computer') {
             computerWins = i++
         }
         console.log('The score is currently ' + playerWins + ' to ' + computerWins + '\n');
